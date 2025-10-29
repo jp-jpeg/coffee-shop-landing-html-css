@@ -1,2 +1,2 @@
-# Car Sharing HTML/CSS Desktop Layout
-This is a desktop layout for car sharing website.
+# Coffee shop HTML/CSS Desktop Layout
+This is a desktop layout for coffee shop website.
