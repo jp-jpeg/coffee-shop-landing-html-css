@@ -2,7 +2,6 @@
 .clearfix::after {
     clear: both;
 }
-
 /* variables */
     :root {
         --white-color: #FFFFFF;
@@ -135,69 +134,6 @@
 
 /* blog */
 
-/* discover */
-
-.discover .section__columns {
-    align-items: center;
-}
-.discover .section__column {
-    width: 50%;
-    text-align: left;
-}
-.discover .section__column--title {
-    font-size: 3.375em;
-}
-.discover .section__column--subtitle {
-    font-size: 1.25em;
-    font-family: var(--primary-font), serif;
-}
-.discover img {float: right;}
-
-/* e: discover */
-
-/* usp */
-
-#usp .section__column {
-    border: 1px solid var(--cards-stroke-border-color);
-    padding: 40px;
-}
-
-#service .section__column--subtitle,
-#usp .section__column--subtitle{ font-family: var(--primary-font), serif; }
-
-#usp .section__column--title { font-size: 1.75em; margin-bottom: 20px; }
-#usp .section__column--subtitle { font-size: 1.25em; margin-bottom: 10px;}
-#usp .section__column:hover { background-color: var(--cards-bg-color); }
-#usp .section__columns--cta { text-align: center; }
-
-/* e: usp */
-
-/* banner */
-
-#banner {
-    background-image: url(../images/banner-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 570px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#banner .section__column--title,
-#banner .section__column--subtitle {
-    color: var(--white-color);
-}
-#banner .section__column
-{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-#banner img { align-self: flex-end; }
-
-/* e: banner */
-
 .section {
     display: flex;
     flex-direction: column;
@@ -246,3 +182,116 @@
     margin-bottom: 15px;
 }
 /* e: blog */
+
+/* discover */
+
+.discover .section__columns {
+    align-items: center;
+}
+.discover .section__column {
+    width: 50%;
+    text-align: left;
+}
+.discover .section__column--title {
+    font-size: 3.375em;
+}
+.discover .section__column--subtitle {
+    font-size: 1.25em;
+    font-family: var(--primary-font), serif;
+}
+.discover img {float: right;}
+
+/* e: discover */
+
+/* usp */
+#usp .section__column {
+    border: 1px solid var(--cards-stroke-border-color);
+    padding: 40px;
+}
+
+#service .section__column--subtitle,
+#usp .section__column--subtitle{ font-family: var(--primary-font), serif; }
+
+#usp .section__column--title { font-size: 1.75em; margin-bottom: 20px; }
+#usp .section__column--subtitle { font-size: 1.25em; margin-bottom: 10px;}
+#usp .section__column:hover { background-color: var(--cards-bg-color); }
+#usp .section__columns--cta { text-align: center; }
+
+/* e: usp */
+
+/* banner */
+#banner {
+    background-image: url(../images/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 570px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner .section__column--title,
+#banner .section__column--subtitle {
+    color: var(--white-color);
+}
+#banner .section__column
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#banner img { align-self: flex-end; }
+
+/* e: banner */
+
+
+/* feedback */
+.feedback {
+    display: flex;
+    align-items: center;
+}
+.section__feedback {
+    border: 1px solid var(--cards-stroke-border-color);
+    padding: 55px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.feedback-icon-left {
+    min-width: 82px;
+    height: 82px;
+    border-radius: 15px;
+    margin-left: -45px;
+    position: absolute;
+    background: var(--yellow-color) url(../images/icon-left.svg) no-repeat center;
+}
+.feedback-icon-right{
+    min-width: 82px;
+    height: 82px;
+    border-radius: 15px;
+    margin-left: -45px;
+    background: var(--yellow-color) url(../images/icon-right.svg) no-repeat center;
+
+}
+.feedback--quote {
+    width: 100px;
+}
+.feedback--title {
+    font-size: 1.125em;
+    line-height: 2.25em;
+}
+.feedback--author {
+    font-size: 2em;
+    color: var(--coffee-color);
+    font-weight: bold;
+}
+.feedback--author-title {
+    font-size: 1.25em;
+}
+.feedback--author-image {
+    width: fit-content;
+    align-self: center;
+    margin-bottom: -128px;
+}
+/* e: feedback */
